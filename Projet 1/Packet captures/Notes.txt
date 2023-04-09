@@ -1,0 +1,18 @@
+===== AUDIO =====
+=> Tout est en ipv4 !
+
+Transport : 
+- TCP : SYN & ACK Packets
+- UDP : 
+
+Sécurité-Transport :
+- TLS (HTTP-TCP) : Data Packets
+- STUN (UDP) : Passage des NAT en ipv4
+
+Application :
+- HTTP (TCP) : 
+- DNS/MDNS (UDP, parfois TCP mais pas ici) : Recherche de l'adresse exacte sur base de l'url
+- NTP (UDP) : Synchronisation de l'horloge interne
+- RTCP (UDP) : Infos de qualité de service
+
+=> Envoi de SDU ou de ACK
